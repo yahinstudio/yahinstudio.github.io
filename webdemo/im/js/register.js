@@ -51,7 +51,7 @@ var register = {
   doRegister: function(username, pwd, nickname) {
     var that = this;
     if (
-      window.CONFIG.appkey === 'fe416640c8e8a72734219e1847ad2547' ||
+      window.CONFIG.appkey === '7412aed7cda10f352550337b119c3ebd' ||
       window.CONFIG.appkey === '45c6af3c98409b18a84451215d0bdd6e'
     ) {
       var password = MD5(pwd);
